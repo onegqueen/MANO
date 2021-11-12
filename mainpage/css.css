@@ -60,5 +60,20 @@ a{
     margin-right:25%;
 }
 
+div#function_button {display: flex;
+	justify-content: center;
+	align-items: center	;
+    min-height: 30vh;
+	                 }
 
+ button{border:  1px solid navy;
+ 	border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }	               
 
+ button:hover{
+ 	color: darkblue;
+ 	background-color: aliceblue;
+ }
