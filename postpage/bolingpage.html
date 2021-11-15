@@ -7,14 +7,16 @@
     <link rel="stylesheet" href="bolingpage.css">
     <script src="https://kit.fontawesome.com/b9ab738ef4.js" crossorigin="anonymous"></script>
     <title>Document</title>
+    <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=eoopb5pz2l"></script>
 </head>
 <body>
+
     <nav class="navbar">
 
         <div class="navbar__logo">
             <div class="logo">
                 <i class="fas fa-school"></i>
-                <a href="">MANO</a> 
+                <a href="../mainpage/html.html">MANO</a> 
             </div>
         </div>
 
@@ -41,7 +43,7 @@
 
      <nav class = "mainbox">
         <div class = "map">
-            <a href="">볼링장/당구장 한눈에 보기</a>
+            <a href=>볼링장/당구장 한눈에 보기</a>
         </div>
         <div class="postingtitle">
             <a href="">게시글 한눈에 보기</a>
@@ -56,6 +58,15 @@
             <a href="">게시글</a>
         </div>
      </nav>
+     <div id="map" style="width:945px;height:400px;margin:5px;"></div>
 
+     <script>
+     var mapOptions = {
+         center: new naver.maps.LatLng(37.3595704, 127.105399),
+         zoom: 10
+     };
+     
+     var map = new naver.maps.Map('map', mapOptions);
+    </script>
 </body>
 </html>

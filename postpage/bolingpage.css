@@ -99,7 +99,6 @@ a{
 
 .mainbox{
     display:flex;
-    align-items:center;
     justify-content: space-between;
     background-color:white;
     padding:5px;
@@ -109,11 +108,11 @@ a{
 .map a{
     margin-left:0px;
     background-color:rgb(175, 175, 175);
-    padding:5px 410px;
+    padding:5px 375px;
 }
 
 .postingtitle a{
-    margin-right: 0px;
+    margin-left : 0px;
     background-color:rgb(175, 175, 175);
     padding:5px 410px;
 }
