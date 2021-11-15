@@ -3,7 +3,7 @@ from flask import Flask
 from flask import render_template 
 from flask import request 
 from flask import redirect 
-from flask_sqlalchemy import SQLAlchemy
+from flask_sqlalchemy import SQLAlchemy #오류
 from Models import db
 from Models import User
 from flask import session 
@@ -50,7 +50,7 @@ def login():
 		try:
 			data = User.query.filter_by(userid=uid, password=passw).first()	# ID/PW 조회Query 실행
 			if data is not None:
-				session['userid'] = userid	# userid를 session에 저장한다.
+				session['userid'] = userid	# userid를 session에 저장한다. #오류
 				return redirect('/')
 			else:
 				return 'Dont Login'	# 데이터가 없으면 출력
