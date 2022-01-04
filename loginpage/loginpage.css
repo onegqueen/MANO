@@ -15,7 +15,7 @@ body
         background: grey;  
         border-radius: 15px ; 
         padding-top: 20px; 
-          
+        
 }  
 
 h2{  
@@ -41,7 +41,7 @@ label{
     border: none;  
     border-radius: 3px;  
     padding-left: 8px;  
-      
+    
 }  
 #log{  
     width: 100px;  

@@ -36,7 +36,7 @@ a{
 }
 .navbar__logo i
 {
-   color : black;
+    color : black;
 }
 
 .search{
@@ -64,16 +64,16 @@ div#function_button {display: flex;
 	justify-content: center;
 	align-items: center	;
     min-height: 30vh;
-	                 }
+}
 
- button{border:  1px solid navy;
- 	border-top-left-radius: 5px;
+button{border:  1px solid navy;
+border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-  }	               
+}	               
 
- button:hover{
- 	color: darkblue;
- 	background-color: aliceblue;
- }
+button:hover{
+color: darkblue;
+background-color: aliceblue;
+}
