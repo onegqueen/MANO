@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%; /*화면 사이즈에 맞게 이미지 배치*/
+}
+
+.logo {
+    width: 50px;
+    margin-top: 14px;
+    margin-left: 14px;
+}
+
+.main-nav li {
+    padding-right: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-nav {
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 34px;
+    list-style: none;
+}
+
+
+.page-header {
+    display: flex;
+    justify-content: space-between; /*화면 양쪽 끝에 로고와 리스트 배치*/
+}
+
+/* home contents */
+.home-content {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.home-content p {
+    font-size: 1.125rem;
+    margin: 10px 0 42px;
+}
+
+/* 그리드 */
+
+.grid {
+    display: grid;
+    gap: 26px;
+    grid-template-columns: repeat(4, minmax(240px,1fr));
+    /*균일하게 1:1:1 비율인 칼럼을 4개 만들겠다는 뜻, 최솟값 지정*/
+    margin-top: 6%;
+    margin-bottom: 50px;
+}

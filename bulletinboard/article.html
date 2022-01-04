@@ -1,41 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<title>Article</title>
-
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="article.css">
+    <title>Article</title>
 </head>
 <body>
+    <div id="home" class="big-bg">
+    <header class="page-header wrapper">
+        <h1><img class="logo" src="./images/logo.png" alt="">MANO</h1>
+        <nav>
+            <ul class="main-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="loginpage.html">Login</a></li>
+                <li><a href="bolingpage.html">Bowling</a></li>
+                <li><a href="matgippage.html">Place to Eat</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <div class="home-content wrapper">
+        <h2 class="page-title">게시판</h2>
+        <p>학교 주변 다양한 놀거리를 소개해드립니다!</p>
+    </div>  <!--home contents-->
+    </div>
 
+    <!--메인 사진 4개-->
 
+    <div class="wrapper grid">
+        <div class="item">
+            <img src="images/bowling.png" alt="bowling.png">
+            <p>요즘 새로 생겨난 놀거리</p>
+        </div>
+        <div class="item">
+            <img src="images/tabletop.png" alt="tabletop.png">
+            <p>친구들과 함께 보드게임?</p>
+        </div>
+        <div class="item">
+            <img src="images/coffee.png" alt="coffee.png">
+            <p>중요한 약속이 있다면 이 장소로!</p>
+        </div>
+        <div class="item">
+            <img src="images/beach.png" alt="beach.png">
+            <p>한가롭게 산책을 하고 싶다면?</p>
+        </div>
+    </div>
 
-
-
-
-
-
+    <footer>
+        <div class="wrapper">
+            <p><small>&copy; 2021-2022 MANO Project </small></p> 
+            <!--small 태그는 주석을 나타낼 떄 사용하는 태그-->
+            <!--푸터는 body 태그 끝나기 직전에 배치-->
+        </div>
+    </footer>
 
     <div id="disqus_thread"></div>
-<script>
-    /**
-    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-    /*
-    var disqus_config = function () {
-    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-    */
-    (function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = 'https://manobulletinboard.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
+    <script>
+        /**
+        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+        /*
+        var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        */
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://manobulletinboard.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    
 </body>
 </html>
+
